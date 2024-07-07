@@ -1,0 +1,151 @@
+.header {
+    min-height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    padding: 1% 0% 1% 0%;
+}
+
+.heading {
+    text-align: center;
+    color: transparent;
+    /* Ensures text is transparent for gradient to show through */
+    background-image: linear-gradient(to right, rgba(231, 159, 37, 1), white, green);
+    -webkit-background-clip: text;
+    /* For WebKit browsers to clip text to the gradient */
+    background-clip: text;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: auto;
+    font-weight: 900;
+}
+
+.gallbg {
+    background: rgb(231, 159, 37);
+    background: linear-gradient(110deg, rgba(231, 159, 37, 1) 19%, rgba(255, 255, 255, 1) 36%, rgba(255, 255, 255, 1) 64%, rgba(11, 249, 17, 1) 89%);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.set1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: purple;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    text-align: wrap;
+}
+
+table {
+    margin: auto;
+}
+
+.a {
+    background-image: url("Civics_prof.png");
+    background-position: center;
+    float: left;
+}
+
+.b {
+    background-image: url("Transportation_prof.jpg");
+    background-position: center;
+    float: left;
+}
+
+.c {
+    background-image: url("topo_prof_new.jpg");
+    background-position: center;
+    float: left;
+}
+
+.d {
+    background-image: url("cloud.jpg");
+    background-position: center;
+    float: left;
+}
+
+.e {
+    background-image: url("mountain_prof_new.jpg");
+    background-size: center;
+    float: left;
+}
+
+.drum {
+    border: 5px solid #404B69;
+    line-height: 2;
+    border-radius: 15px;
+    display: inline-block;
+    width: 165px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+}
+
+.wrap {
+    text-align: wrap;
+    float: right;
+    text-decoration: none;
+}
+
+.set2 {
+    margin: 1% 0% 2% 0%;
+    width: 100%;
+}
+
+.display {
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    padding: 0%;
+}
+
+.climate {
+    background-color: rgb(248, 195, 195);
+}
+
+.transport {
+    background-color: rgb(183, 226, 97);
+}
+
+.terrain {
+    background-color: rgb(190, 206, 223);
+}
+
+.mountain {
+    background-color: rgb(146, 143, 188);
+}
+
+.civic {
+    background-color: rgb(232, 171, 247)
+}
+
+.buttonClass {
+    font-size: 30px;
+    font-family: Arial;
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    border-color: #0b0e07;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    text-shadow: inset 0px 1px 0px #263666;
+    background: linear-gradient(#3d94f6, #1e62d0);
+}
+
+.buttonClass:hover {
+    background: linear-gradient(#0688fa, #2dabf9);
+}
